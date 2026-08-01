@@ -1,7 +1,25 @@
 aid: outrider
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/outrider.png
 name: Outrider
-description: Outrider is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Outrider is an autonomous yard technology company that automates distribution
+  yard operations with self-driving, all-electric yard trucks (hostlers). The Outrider
+  System combines autonomous driving software, robotics for connecting and disconnecting
+  trailers, and site operations software to move trailers between docks, parking spots,
+  and staging lanes in large logistics yards. Headquartered in Golden, Colorado, Outrider
+  targets shippers and logistics operators seeking to improve safety, sustainability,
+  and throughput in the supply chain. The company is backed by investors including 8VC.
+  No public developer API, OpenAPI, or developer portal has been identified for Outrider.
 url: https://raw.githubusercontent.com/api-evangelist/outrider/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +29,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Autonomous Vehicles
+- Robotics
+- Logistics
+- Supply Chain
+- Yard Automation
+- Trucking
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/outrider-domain-security.yml
 - type: Website
   url: https://outrider.ai
